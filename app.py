@@ -32,11 +32,6 @@ def makeWebhookResult(req):
 
     speech = "Check the contexts."
 
-    print("Response:")
-    print(speech)
-
-    print(json.dumps(telegram_message))
-
     return {
         "speech": speech,
         "displayText": speech,
