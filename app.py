@@ -36,7 +36,7 @@ def makeWebhookResult(req):
         "speech": speech,
         "displayText": speech,
         #"data": ,
-        "contextOut": [{"name":"greetings", "lifespan":2, "parameters":{"name":"John"}}, {"name":"task", "lifespan":2, "parameters":{"task":"not do this"}}, {"name":"zero", "lifespan":0, "parameters":{}}],
+        "contextOut": [{"name":"greetings", "lifespan":2, "parameters":{"name":"John"}}, {"name":"task", "lifespan":2, "parameters":{"task":"not do this"}}, {"name":"zero", "lifespan":0}],
         "source": "contexts-from-webhook-test"
     }
 
